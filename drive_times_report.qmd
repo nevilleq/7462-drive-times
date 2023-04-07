@@ -56,7 +56,7 @@ drive_times <- map_dfr(times_to_check, get_travel_times,
 
 ## Produce the drive times plot
 drive_times %>% 
-  pivot_longer(-departure_time, names_to = "estimate_type", values_to = "estimate") %>%
+  tidyr::pivot_longer(-departure_time, names_to = "estimate_type", values_to = "estimate") %>%
   group_by(estimate_type) %>%
   mutate(is_type_min = (estimate == min(estimate))) %>%
   ungroup() %>%
