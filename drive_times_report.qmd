@@ -3,7 +3,7 @@ title: "What time should I leave?"
 author: "A PUBH 7462 student"
 format: 
   html:
-    embed-resources: true
+    embed-resources: false
 editor: visual
 ---
 
