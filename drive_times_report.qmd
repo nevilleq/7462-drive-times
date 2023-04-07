@@ -33,7 +33,7 @@ DEST <- "1 Twins Way, Minneapolis, MN 55403"
 
 ## Route Map
 
-```{r}
+```{r eval = FALSE}
 #| echo: false
 
 ## Produce the map
